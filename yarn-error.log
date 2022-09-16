@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn run build
+  /usr/local/bin/node /usr/local/bin/yarn test
 
 PATH: 
   /Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/git/bin:/Users/qt/Desktop/tx/mangoswap-sdk/node_modules/.bin:/Users/qt/Library/Android/sdk/platform-tools:/Users/qt/Library/Android/sdk/tools:/Users/qt/Downloads/scala-2.12.2/bin:/Users/qt/Downloads/sbt/bin:/Users/qt/Downloads/spark-2.1.1-bin-hadoop2.7/bin:/Users/qt/.composer/vendor/bin:/Users/qt/go/bin:/usr/local/Cellar/postgresql/10.5/bin:/Users/qt/Desktop/musicion/go-musicoin/build/bin/:/Users/qt/.rvm/bin
@@ -1852,8 +1852,8 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   
   caniuse-lite@^1.0.30001093:
-    version "1.0.30001105"
-    resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001105.tgz#d2cb0b31e5cf2f3ce845033b61c5c01566549abf"
+    version "1.0.30001400"
+    resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001400.tgz"
   
   capture-exit@^2.0.0:
     version "2.0.0"
@@ -5711,7 +5711,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c tsdx build
+  Arguments: -c tsdx test
   Directory: /Users/qt/Desktop/tx/mangoswap-sdk
   Output:
   
