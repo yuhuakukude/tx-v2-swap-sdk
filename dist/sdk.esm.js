@@ -33,8 +33,8 @@ var Rounding;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
 
-var FACTORY_ADDRESS = '0x410DD9Feb45ca0E1D22E5D492A62429f4265C76d';
-var INIT_CODE_HASH = '0x6b96fd7259e23577fc81a815559a1c03bd5661866a8b805631fde19a05883b44';
+var FACTORY_ADDRESS = '0xc136A3CC7234393aA2794Ee95e34C8B229D7d2B6';
+var INIT_CODE_HASH = '0x3c3b4b43df5a1740dc9e9d22ddf00a3cb7d06640b2922636b14a39d43e19ca08';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -433,7 +433,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xF6c5377251Fa00B086FeCd907b1404aDb2845BB8', 18, 'WTX:', 'Wrapped TX'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x68909Fea4ca0e80247da6b974c10f225696e00D6', 18, 'WTX', 'Wrapped TX'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
